@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qtquickcontrols2.conf</file>
+        <file>qml/main.qml</file>
+        <file>qml/modules/mindwave/MindwaveModule.qml</file>
+        <file>qml/modules/mindwave/ProgressBlock.qml</file>
+    </qresource>
+</RCC>
