@@ -20,6 +20,7 @@ public:
 
     void setQmlContext(QQmlContext* qmlContext);
 
+private:
     QSharedPointer<MindwaveModule> mindwaveModule;
     QList<QSharedPointer<BaseModule>> modules;
 
