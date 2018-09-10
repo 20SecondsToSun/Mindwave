@@ -33,10 +33,6 @@ public:
 
     QString poorSignalColor() const;
     bool isSignalLevelMax() const;
-
-    virtual void start() = 0;
-    virtual void stop() = 0;
-
     virtual void setConfig(const MindwaveConfig& config);
 
 public:

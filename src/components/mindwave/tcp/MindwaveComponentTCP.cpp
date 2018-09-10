@@ -35,6 +35,11 @@ void MindwaveComponentTCP::setConfig(const MindwaveConfig& value)
     mindwaveParser->setConfig(config);
 }
 
+void MindwaveComponentTCP::init()
+{
+
+}
+
 void MindwaveComponentTCP::start()
 {
     qDebug()<<"------------------- mindwave tcp component start -------------------";

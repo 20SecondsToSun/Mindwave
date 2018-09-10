@@ -18,9 +18,9 @@ MindwaveComponentSimulation::~MindwaveComponentSimulation()
     }
 }
 
-void MindwaveComponentSimulation::setConfig(const MindwaveConfig& value)
+void MindwaveComponentSimulation::init()
 {
-    BaseMindwaveComponent::setConfig(value);
+
 }
 
 void MindwaveComponentSimulation::start()

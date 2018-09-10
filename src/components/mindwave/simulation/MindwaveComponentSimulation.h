@@ -12,7 +12,7 @@ public:
     explicit MindwaveComponentSimulation(QObject *parent = nullptr);
     virtual ~MindwaveComponentSimulation();
 
-    virtual void setConfig(const MindwaveConfig& value) override;
+    virtual void init() override;
     virtual void start() override;
     virtual void stop() override;
 

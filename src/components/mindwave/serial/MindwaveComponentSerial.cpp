@@ -35,6 +35,11 @@ void MindwaveComponentSerial::setConfig(const MindwaveConfig& value)
     mindwaveParser->setConfig(config);
 }
 
+void MindwaveComponentSerial::init()
+{
+
+}
+
 void MindwaveComponentSerial::start()
 {
     qDebug()<<"------------------- mindwave serial component start -------------------";

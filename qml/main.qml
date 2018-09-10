@@ -7,13 +7,12 @@ import "modules/mindwave"
 ApplicationWindow
 {
     visible: true
-    width: 640
-    height: 480
-    title: qsTr("Mindwave")
+    width: 800
+    height: 600
+    title: qsTr("App Template")
 
     MindwaveModule
     {
 
     }
-
 }
